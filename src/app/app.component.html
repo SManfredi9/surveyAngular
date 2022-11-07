@@ -1,7 +1,15 @@
+<mat-toolbar>
+  <div class="example-button-container">
+    <a routerLink="/home" routerLinkActive="active" [skipLocationChange]=true>
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+    </a>
+  </div>
+<!--<  <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>&ndash;&gt;-->
+  <span>Survey   </span>
+  <span class="log">
+  <button mat-stroked-button (click)="openLogin()">LOGIN</button>
+    <button mat-stroked-button (click)="openSignup()">SIGN UP</button>
+  </span>
+</mat-toolbar>
+<router-outlet></router-outlet>
 
-<body>
-<a href=""> Prova </a>
-<app-login></app-login>
-<app-prova>Ciao pera </app-prova>
-
-</body>
