@@ -16,6 +16,7 @@ import { DialogTemplateComponent } from './dialog-template/dialog-template.compo
 import {MatIconModule} from "@angular/material/icon";
 import { SignupComponent } from './signup/signup.component';
 import { HomeComponent } from './home/home.component';
+import {MatTabsModule} from "@angular/material/tabs";
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { HomeComponent } from './home/home.component';
     MatToolbarModule,
     MatButtonModule,
     MatDialogModule,
-    MatIconModule
+    MatIconModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
